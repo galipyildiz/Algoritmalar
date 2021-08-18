@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace QuickSort
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -32,7 +32,7 @@ namespace QuickSort
         /// <summary>
         /// Quick Sort, bilgisayarda tuttuğumuz verileri belli bir düzene göre sıralamamızı sağlayan bir algoritmadır. Biz her bir adımda rastgele bir eleman seçiyoruz. Daha sonra diziyi baştan sona gezerek bu elemandan küçük olanları sola, büyük olanları sağa atıyoruz. Böylelikle seçtiğimiz elemandan küçük bütün sayılar solda, büyük sayılar ise sağda kalmış oluyor.O(N log2(N))
         /// </summary>
-        private static void QuickSort(int[] arr, int low, int high)
+        public static void QuickSort(int[] arr, int low, int high)
         {
             if (low < high)
             {

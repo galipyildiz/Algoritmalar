@@ -13,7 +13,7 @@ namespace BinarySearch
             int son = dizi.Length - 1;
             int deger = 8373;//dizide aranan değer.
             stopwatch.Start();
-            int sonuc = BinarySearch(dizi, bas, son, deger,0);
+            int sonuc = BinarySearch(dizi, bas, son, deger);
             stopwatch.Stop();
             Console.WriteLine(sonuc);
             Console.WriteLine(dizi[sonuc]);
@@ -24,10 +24,8 @@ namespace BinarySearch
         /// <summary>
         /// Binary Search en temel arama algoritmalarından biridir. Ancak bu algoritmayı kullanabilmek için dizimizin küçükten büyüğe sıralı olması gerek. O(log N)
         /// </summary>
-        private static int BinarySearch(int[] dizi, int bas, int son, int deger,int count)
+        private static int BinarySearch(int[] dizi, int bas, int son, int deger)
         {
-            count++;
-            Console.WriteLine(count);
             if (son >= bas)
             {
                 int orta = (bas + son) / 2;
@@ -37,11 +35,11 @@ namespace BinarySearch
                 }
                 else if (dizi[orta] > deger)
                 {
-                    return BinarySearch(dizi, bas, orta - 1, deger,count);
+                    return BinarySearch(dizi, bas, orta - 1, deger);
                 }
                 else
                 {
-                    return BinarySearch(dizi, orta + 1, son, deger,count);
+                    return BinarySearch(dizi, orta + 1, son, deger);
                 }
             }
             return -1;
