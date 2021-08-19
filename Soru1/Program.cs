@@ -34,15 +34,7 @@ namespace Soru1
             Console.WriteLine("Sonuç");
             for (int i = 0; i < array2.Length; i++)
             {
-                int count = 0;
-                for (int j = 0; j < array1.Length; j++)
-                {
-                    if (array2[i] > array1[j])
-                    {
-                        count++;
-                    }
-                }
-                Console.Write(count + " ");
+                Console.WriteLine(BinarySearch.Program.BinarySearchSoru(array1, 0, array1.Length, array2[i]));
             }
             stopwatch.Stop();
             TimeSpan timeSpan = stopwatch.Elapsed;
