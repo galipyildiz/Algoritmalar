@@ -19,7 +19,7 @@ namespace BinarySearch
             Console.WriteLine(dizi[sonuc]);
             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
             TimeSpan timespan = stopwatch.Elapsed;
-            Console.WriteLine("Gecen Zaman: " + timespan.TotalMilliseconds + " saniye");
+            Console.WriteLine("Gecen Zaman: " + timespan.TotalMilliseconds);
         }
         /// <summary>
         /// Binary Search en temel arama algoritmalarından biridir. Ancak bu algoritmayı kullanabilmek için dizimizin küçükten büyüğe sıralı olması gerek. O(log N)

@@ -27,7 +27,7 @@ namespace MergeSort
             }
             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
             TimeSpan timespan = stopwatch.Elapsed;
-            Console.WriteLine("Gecen Zaman: " + timespan.TotalMilliseconds + " saniye");
+            Console.WriteLine("Gecen Zaman: " + timespan.TotalMilliseconds);
         }
         /// <summary>
         /// Divide and Conquer(Böl ve Yönet) yaklaşımının en temel örneklerinden biri olan Merge Sort, sıralayacağımız diziyi her seferinde ikiye bölüp ayrı ayrı sıraladıktan sonra birleştirme mantığına dayanmaktadır. Algoritmamız iki fonksiyondan oluşuyor. Birincisi girilen diziyi ikiye bölüp ayrı ayrı sıralamayı sağlarken diğeri sıralanmış iki diziyi birleştirmemizi sağlıyor. O(N * log(N))

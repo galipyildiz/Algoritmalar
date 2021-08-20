@@ -27,7 +27,7 @@ namespace QuickSort
             }
             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
             TimeSpan timespan = stopwatch.Elapsed;
-            Console.WriteLine("Gecen Zaman: " + timespan.TotalMilliseconds + " saniye");
+            Console.WriteLine("Gecen Zaman: " + timespan.TotalMilliseconds);
         }
         /// <summary>
         /// Quick Sort, bilgisayarda tuttuğumuz verileri belli bir düzene göre sıralamamızı sağlayan bir algoritmadır. Biz her bir adımda rastgele bir eleman seçiyoruz. Daha sonra diziyi baştan sona gezerek bu elemandan küçük olanları sola, büyük olanları sağa atıyoruz. Böylelikle seçtiğimiz elemandan küçük bütün sayılar solda, büyük sayılar ise sağda kalmış oluyor.O(N log2(N))

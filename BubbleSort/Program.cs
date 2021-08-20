@@ -25,7 +25,7 @@ namespace BubbleSort
             }
             Console.WriteLine("\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
             TimeSpan timespan = stopwatch.Elapsed;
-            Console.WriteLine("Gecen Zaman: " + timespan.TotalMilliseconds + " saniye");
+            Console.WriteLine("Gecen Zaman: " + timespan.TotalMilliseconds);
         }
 
         /// <summary>
