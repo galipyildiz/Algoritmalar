@@ -1,3 +1,3 @@
 # Algoritmalar
 Bazı arama ve sıralama algoritmalarının ve soruların C# dilinde yazılması yada çözülmesi
-![title](/algoritmacharp.png)
+![title](algoritmacharp.png)
