@@ -1,7 +1,6 @@
 ![algoritma](algoritmacsharp.png)
 =============
-- Verimli algoritmalar O(N log N) zamanda çalışırken verimsiz algoritmalar O(N^2) zamanında çalışır.
-- https://www.bigocheatsheet.com/
+- Verimli algoritmalar O(N log N) zamanda çalışırken verimsiz algoritmalar O(N^2) zamanında çalışır. [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 # Süre Hesaplamaları
 - [Binary Search](https://github.com/galipyildiz/Algoritmalar/blob/master/BinarySearch/Program.cs) => 14,9443 milisaniye
