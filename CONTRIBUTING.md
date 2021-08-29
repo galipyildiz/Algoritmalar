@@ -1,4 +1,28 @@
-# Nasıl Katkıda Bulunulur? 
+# Nasıl Katkıda Bulunulur? (Pull&Request)
 
-- Sağ üst köşeden bu projeyi Forklayın.
-![fork](images/fork.png)
+- Step-1: Sağ üst köşeden bu projeyi forklayın.
+- Step-2: Forklanmış projeyi local makinanıza clonelayın.
+```
+git clone https://github.com/<github_adiniz>/Algoritmalar.git
+```
+- Step-3: Yeni bir branch oluşturun.
+```
+git checkout -b yeni-algoritma
+git branch
+```
+- Step-4: Yeni Algoritma .NET 5 Console Uygulaması Projesi Ekleyin. Çalışmanızı yapın ve bitirin.
+```
+git status
+git add .
+git status
+```
+- Step-5: Çalışmanıza commit ekleyin.
+```
+git commit -m "Yeni algoritma eklendi."
+```
+- Step-6: Yapılan commiti githuba atın 
+```
+git push origin yeni-algortima
+```
+- Step-7: Yeni Pull&Request isteği oluşturun.
+- Step-8: Ve isteğinizin kabul edilmesini bekleyin :)
