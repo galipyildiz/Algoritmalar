@@ -38,3 +38,11 @@ git push origin yeni-algortima
 
 # Önemli NOT:
 > CONTRIBUTING.md dosyalarını okumayı unutmayınız.
+
+# Ekstra
+- [gitmoji](https://gitmoji.dev/) commitlerinizi buradaki görsellerle görselleştirebilirsiniz.
+- [readme.md cheatsheet-1](https://pandao.github.io/editor.md/en.html) md dosyaları için yazım örnekleri
+- [readme.md cheatsheet-2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) md dosyaları için yazım örnekleri
+
+# ÖDEV
+- https://lab.github.com/
