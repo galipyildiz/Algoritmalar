@@ -12,8 +12,8 @@ namespace PerfectSquare
         /// <summary>
         /// 7*7 = 49 && math.sqrt(49) * math.sqrt(49) = 49, 49 is perfect square
         /// </summary>
-        /// <param name="x"></param>
-        /// <returns></returns>
+        /// <param name="x">integer</param>
+        /// <returns>void</returns>
         static void CheckPerfectSquare(int x)
         {
             if (Math.Ceiling((double)Math.Sqrt(x)) == Math.Floor((double)Math.Sqrt(x)))
