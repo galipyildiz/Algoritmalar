@@ -20,11 +20,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\Quic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EratosthenesKalburu", "EratosthenesKalburu\EratosthenesKalburu.csproj", "{61775676-82E9-4582-B023-5FE0CEC5477A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxSumHackerRank", "MinMaxSumHackerRank\MinMaxSumHackerRank.csproj", "{4446ACA1-3DDD-458B-9459-3C5DD39D61FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinMaxSumHackerRank", "MinMaxSumHackerRank\MinMaxSumHackerRank.csproj", "{4446ACA1-3DDD-458B-9459-3C5DD39D61FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StairsHackerRank", "StairsHackerRank\StairsHackerRank.csproj", "{F204A63D-6FC5-470E-8864-DAE2403E33A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StairsHackerRank", "StairsHackerRank\StairsHackerRank.csproj", "{F204A63D-6FC5-470E-8864-DAE2403E33A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConversionHackerRank", "TimeConversionHackerRank\TimeConversionHackerRank.csproj", "{15772068-FF16-4695-AD3C-88AEEC62F6E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversionHackerRank", "TimeConversionHackerRank\TimeConversionHackerRank.csproj", "{15772068-FF16-4695-AD3C-88AEEC62F6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectSquare", "PerfectSquare\PerfectSquare.csproj", "{A06278D7-9AA4-4242-A89F-3E4D5A917F65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{15772068-FF16-4695-AD3C-88AEEC62F6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15772068-FF16-4695-AD3C-88AEEC62F6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15772068-FF16-4695-AD3C-88AEEC62F6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06278D7-9AA4-4242-A89F-3E4D5A917F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06278D7-9AA4-4242-A89F-3E4D5A917F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06278D7-9AA4-4242-A89F-3E4D5A917F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06278D7-9AA4-4242-A89F-3E4D5A917F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
