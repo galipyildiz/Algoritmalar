@@ -26,7 +26,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StairsHackerRank", "StairsH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversionHackerRank", "TimeConversionHackerRank\TimeConversionHackerRank.csproj", "{15772068-FF16-4695-AD3C-88AEEC62F6E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradingStudents", "GradingStudents\GradingStudents.csproj", "{4CCCE853-64AE-41B4-8CF3-F3A47F4848B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradingStudents", "GradingStudents\GradingStudents.csproj", "{4CCCE853-64AE-41B4-8CF3-F3A47F4848B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiziElemanlariniTersUcKolon", "DiziElemanlariniTersUcKolon\DiziElemanlariniTersUcKolon.csproj", "{193D9C1D-AAB6-44B0-88CC-108C97C309D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{4CCCE853-64AE-41B4-8CF3-F3A47F4848B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CCCE853-64AE-41B4-8CF3-F3A47F4848B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CCCE853-64AE-41B4-8CF3-F3A47F4848B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193D9C1D-AAB6-44B0-88CC-108C97C309D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193D9C1D-AAB6-44B0-88CC-108C97C309D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193D9C1D-AAB6-44B0-88CC-108C97C309D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193D9C1D-AAB6-44B0-88CC-108C97C309D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
